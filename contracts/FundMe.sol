@@ -19,7 +19,7 @@ contract FundMe {
     using PriceConverter for uint256;
 
     //state variables
-    // variable name start with s-** means it added iin storage which can cost more gas
+    // variable name start with s-** means it added in storage which can cost more gas
     mapping(address => uint256) private s_addressToAmountFunded;
     address[] private s_funders;
 
