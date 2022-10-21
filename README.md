@@ -6,9 +6,17 @@ This contract is for creating a sample funding contract
 
 We have used `Chainlink` to get the price of `ETH` in terms of `USD`. Here funders fund the contract and only the Owner of the contract can withdraw the funds from the contract
 
----
+# Getting Started
 
-## Usage
+## Quickstart
+
+```
+git clone https://github.com/Jitumani073/hardhat-fund-me-fcc
+cd hardhat-fund-me-fcc
+yarn
+```
+
+# Usage
 
 #### Deploy:
 `yarn hardhat deploy`
@@ -18,8 +26,6 @@ We have used `Chainlink` to get the price of `ETH` in terms of `USD`. Here funde
 
 #### Test Coverage:
 `yarn hardhat coverage`
-
----
 
 ## Deployment to a Testnet 
 
@@ -31,8 +37,6 @@ You'll want to set your `GOERLI_RPC_URL` and `PRIVATE_KEY` as environment variab
 #### 2. Deploy:
 `yarn hardhat deploy --network goerli`
 
----
-
 ## Scripts
 After deploy to a testnet or local net, you can run the scripts 
 
@@ -42,6 +46,6 @@ or
 
 `yarn hardhat run scripts/withdraw.js`
 
-
+# Thank you!
 
 
